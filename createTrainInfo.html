@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Train Info - Train Ticket Booking System</title>
+  <link rel="stylesheet" href="createTrainInfo.css">
+</head>
+<body>
+  <header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+    <div class="admin-info">
+      <img src="https://w7.pngwing.com/pngs/252/546/png-transparent-computer-icons-female-avatar-administrator-face-heroes-hand.png" alt="Human Logo">
+      <span>Admin Name</span>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <h2><strong>Train</strong></h2>
+      <ul>
+        <li><a href="viewTrainInfo.html">View Trains</a></li>
+        
+      </ul>
+    </aside>
+
+    <section class="create-train-info">
+      <h2>Create Train Info <img src="data:image/png;base64,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" alt="Small Train Logo" class="small-train-logo"></h2>
+     <form action="#" method="post">
+        <div class="input-group">
+          <label for="train-name">Train Name:</label>
+          <input type="text" id="train-name" name="train-name" required>
+        </div>
+        <div class="input-group">
+          <label for="from-city">From City:</label>
+          <input type="text" id="from-city" name="from-city" required>
+        </div>
+        <div class="input-group">
+          <label for="to-city">To City:</label>
+          <input type="text" id="to-city" name="to-city" required>
+        </div>
+        <div class="input-group">
+          <label for="departure-time">Departure Time:</label>
+          <input type="time" id="departure-time" name="departure-time" required>
+        </div>
+        <div class="input-group">
+          <label for="train-id">Train ID:</label>
+          <input type="text" id="train-id" name="train-id" required>
+        </div>
+        <div class="input-group">
+          <label for="seating-capacity">Seating Capacity:</label>
+          <input type="number" id="seating-capacity" name="seating-capacity" required>
+        </div>
+        <div class="input-group">
+          <label for="price">Price:</label>
+          <input type="number" id="price" name="price" required>
+        </div>
+        <button type="submit">Create</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Train Ticket Booking System</p>
+  </footer>
+</body>
+</html>
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Ticket - Train Ticket Booking System</title>
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+  <header>
+    <h1>Train Ticket Booking</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form action="#" method="post" class="booking-form">
+      <h2>Book a Ticket</h2>
+      <div class="input-group">
+        <label for="from">From:</label>
+        <select id="from" name="from" required>
+          <option value="">Select</option>
+          <option value="place1">Dummy Place 1</option>
+          <option value="place2">Dummy Place 2</option>
+          <option value="place3">Dummy Place 3</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="to">To:</label>
+        <select id="to" name="to" required>
+          <option value="">Select</option>
+          <option value="place1">Dummy Place 1</option>
+          <option value="place2">Dummy Place 2</option>
+          <option value="place3">Dummy Place 3</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <button type="submit" class="btn">Book Ticket</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Train Ticket Booking System</p>
+  </footer>
+</body>
+</html>

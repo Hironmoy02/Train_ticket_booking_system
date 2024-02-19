@@ -1,0 +1,116 @@
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3x2q-VTYfRXJZngqHYv4UYQa51jpJutOMpw&usqp=CAU'); */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-info img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .create-train-info {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .create-train-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-train-info .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .create-train-info .input-group label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .create-train-info .input-group input {
+    padding: 6px;
+    width: calc(100% - 180px); 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .create-train-info button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3x2q-VTYfRXJZngqHYv4UYQa51jpJutOMpw&usqp=CAU'); */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .emphasis {
+    font-weight: bold;
+  }
+  
+  .admin-info img {
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px; /* Adjust margin */
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  .main {
+    margin-left: 220px; /* Adjust this to match the width of the sidebar */
+    padding: 20px;
+  }
+  
+  .train-data {
+    margin-bottom: 30px;
+  }
+  
+  .train-data h2 {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
